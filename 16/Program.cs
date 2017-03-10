@@ -16,7 +16,7 @@ namespace _16
             double precision = 0.000001d;
 
             double diff = Math.Abs(number1 - number2);
-            Console.WriteLine(diff < precision);    // diff < required precision => equal numbers
+            Console.WriteLine(diff < precision);    // diff < required precision => equal numbers, returns true/false
         }
     }
 }

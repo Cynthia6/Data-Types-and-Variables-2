@@ -12,11 +12,15 @@ namespace _5
         {
             string word = Console.ReadLine();
 
-          if ( Convert.ToBoolean(word) == true )
-              Console.WriteLine("Yes");
-          else if (Convert.ToBoolean(word) == false)
-              Console.WriteLine("No");
+         // if ( Convert.ToBoolean(word) == true )
+          //    Console.WriteLine("Yes");
+          //else if (Convert.ToBoolean(word) == false)
+          //    Console.WriteLine("No");
 
+            if (word == "True")
+                Console.WriteLine("Yes");
+            else if (word == "False")
+                Console.WriteLine("No");
 
         }
     }

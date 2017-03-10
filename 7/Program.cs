@@ -15,9 +15,9 @@ namespace _7
 
             int temp = 0;
 
-            temp = a;
-            a = b;
-            b = a;
+            temp = a; //5
+            a = b;//10
+            b = a;//10
 
             Console.WriteLine("Before:");
             Console.WriteLine("a = 5");
